@@ -20,7 +20,7 @@ $(document).ready(function(){
 			//populate the template
 			markup += '<img src="' + img.url_z + '">';
 	    var flickrContent = $('.photosContainer').html(markup);
-	    flickrMarkup = _.template(flickrContent, img);
+	    flickrMarkup = _.template(flickrContent, photo);
 	    if(Modernizr.touch) {
 	    	$('.swipe-wrap').append(flickrMarkup);
 	    //jQuery swipe: http://swipejs.com Copyright (c) 	2013 Brad Birdsall Licensed under the The MIT 	License (MIT).
