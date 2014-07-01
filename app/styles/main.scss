@@ -197,14 +197,11 @@ nav {
   height: 300px;
   width: 100%;
   visibility: hidden;
-  display: none;
+  //display: none;
   position: relative;
-  @media screen and (max-width: 480px) {
-  	display: block;
   	margin: 20px 0;
-		border-bottom: solid white 2px;
-		border-top: solid black 2px;
-  	} 
+	border-bottom: solid white 2px;
+	border-top: solid black 2px;
 }
 .swipe-wrap {
   overflow: hidden;
