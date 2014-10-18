@@ -2,7 +2,7 @@
 <html class="no-js">
     <head>
         <meta charset="utf-8">
-        <title>reenway Cycles</title>
+        <title>Greenway Cycles</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="icon" 
@@ -23,7 +23,6 @@
         <!-- endbuild -->
 
         <!-- build:js scripts/vendor/modernizr.js -->
-        <script src="bower_components/modernizr/modernizr.js"></script>
         <!-- endbuild -->
     </head>
     <body>
@@ -43,22 +42,22 @@
 
       <div class="photosLayer">
         <div class="photosContainer">
+        
         </div>
       </div>
 
       <!-- jQuery swipe -->
-     <!--  <div id="slider" class='swipe'>
+      <div class = "mobile">
+        <div id="slider" class='swipe'>
           <div class='swipe-wrap'>
-            <div></div>
-            <div></div>
-            <div></div>
           </div>
-      </div> -->
+        </div>
+      </div>
     <!-- end jQuery swipe -->
 
-<script type="text/template" id="flickr">
-            <div <%= img.url_z %> </div>
-        </script>
+    <script type="text/template" id="flickr">
+        <div> <img src="<%= url_z %>"> </div>
+    </script>
      
 
       <div class="transLayer">
@@ -96,6 +95,9 @@
         <!-- build:js scripts/vendor.js -->
         <!-- bower:js -->
         <script src="bower_components/jquery/dist/jquery.js"></script>
+        <script src="bower_components/underscore/underscore.js"></script>
+        <script src="bower_components/modernizr/modernizr.js"></script>
+        <script src="bower_components/swipe/swipe.js"></script>
         <!-- endbower -->
         <!-- endbuild -->
 
